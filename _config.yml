@@ -69,7 +69,7 @@ kramdown:
     css_class: 'highlight'
 
 # Add theme
-	theme: minima
+	theme: architect
 	
 # Set the Sass partials directory, as we're using @imports
 sass:
