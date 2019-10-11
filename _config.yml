@@ -76,16 +76,14 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  # ...
   # Added all the following from doc page
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-titles-from-headings
-  - jekyll-relative-links
+  - jekyll-default-layout # Silently sets default layouts for Jekyll pages and posts
+  - jekyll-github-metadata # Propagates the site.github namespace and set default values for use with GitHub Pages.
+  - jekyll-optional-front-matter # Makes yml front matter optional for Markdown files
+  - jekyll-titles-from-headings # Pulls the page title from the first Markdown heading when none is specified
+  - jekyll-relative-links # Converts relative links to Markdown files to their rendered equivalents
+  - jemoji # Emoji plugin for Jekyll
 
 # Exclude these files from your production _site
 exclude:
