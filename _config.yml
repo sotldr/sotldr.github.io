@@ -69,7 +69,7 @@ kramdown:
     css_class: 'highlight'
 
 # Add theme
-theme: LeapDay
+theme: jekyll-theme-architect
 	
 # Set the Sass partials directory, as we're using @imports
 sass:
