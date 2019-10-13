@@ -92,7 +92,7 @@ figcaption, .site-credit {
 	font-weight:normal;
     padding: 8px;
 }
-.site-credit a {
+.site-credit a, .site-credit a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
