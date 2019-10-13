@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'GinesoCondMedium';
-    src: url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff2') format('woff2'),
-         url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @charset "utf-8";
@@ -12,6 +5,13 @@
 @viewport {
   width: device-width;
   initial-scale=1;
+}
+@font-face {
+    font-family: 'GinesoCondMedium';
+    src: url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff2') format('woff2'),
+         url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 body {
 	font-family: GinesoCondMedium, san-serif;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, td, dd, dt {
 	font-family: Acherus, sans-serif;
 }
 .boo ul li {
-	font-family: GinesoCondMedium', san-serif;
+	font-family: GinesoCondMedium, san-serif;
 	font-size: 18px;
 }
 .jumbotron h1 {
