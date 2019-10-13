@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, td, dd, dt {
 	font-weight: bold;
 }
 h2 {
-	color: #ff6600;
+	color: #C64600;
 }
 h3 {
 	color: #861F41;
@@ -90,14 +90,14 @@ figcaption, .site-credit {
 }
 a, li a {
 	text-decoration: underline;
-	color: #ff6600;
+	color: #C64600;
 }
 a:hover, li a:hover {
 	text-decoration: underline;
 	color: #861F41;
 }
 .orangebox {
-	border: 6px solid #FF6600;
+	border: 6px solid #C64600;
 	border-style: double;
 	box-sizing: border-box;
 	padding: 0 5px 5px 20px;
@@ -129,7 +129,7 @@ a.activeMenuItem {
 }
 
 .page-header-sidebar {
-	border-bottom: 1px solid #FF6600;
+	border-bottom: 1px solid #C64600;
     margin: 40px 0 20px;
 	padding: 15px 15px 15px 15px;
 	font-size: 18px;
@@ -139,7 +139,7 @@ a.activeMenuItem {
 .page-header-content {
     margin: 40px 0 20px;
 	padding-bottom: 9px;
-	border-bottom: 1px solid #FF6600;
+	border-bottom: 1px solid #C64600;
 }
 
 .alignnone {
@@ -164,7 +164,7 @@ a.activeMenuItem {
 }
 
 .page-header-sidebar {
-	border-bottom: 1px solid #FF6600;
+	border-bottom: 1px solid #C64600;
     margin: 40px 0 20px;
 	padding: 15px 15px 15px 15px;
 	font-size: 18px;
@@ -174,7 +174,7 @@ a.activeMenuItem {
 .page-header-content {
     margin: 40px 0 20px;
 	padding-bottom: 9px;
-	border-bottom: 1px solid #FF6600;
+	border-bottom: 1px solid #C64600;
 }
 
 /*

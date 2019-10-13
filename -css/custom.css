@@ -7,7 +7,7 @@ You can add your own CSS here.
 Click the help icon above to learn more.
 */
 .tracigardner {
-	border: 1px solid #FF6600;
+	border: 1px solid #C64600;
 }
 
 .noformat table,
@@ -42,7 +42,7 @@ Click the help icon above to learn more.
 }
 
 .orangebox {
-	border: 6px solid #FF6600;
+	border: 6px solid #C64600;
 	border-style: double;
 	box-sizing: border-box;
 	padding: 0 5px 5px 20px;
@@ -61,7 +61,7 @@ Click the help icon above to learn more.
 }
 
 .orange {
-	color: #FF6600;
+	color: #C64600;
 }
 
 .maroon {
