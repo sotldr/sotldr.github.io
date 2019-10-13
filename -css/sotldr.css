@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Acherus');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @charset "utf-8";
@@ -9,7 +9,7 @@
   initial-scale=1;
 }
 body {
-	font-family: Acherus, sans-serif;
+	font-family: "Crimson Text", serif;
 	font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, td, dd, dt {
