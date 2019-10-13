@@ -7,21 +7,21 @@
   initial-scale=1;
 }
 @font-face {
-    font-family: ''ginesocond_medium'';
-    src: url('https://soltdr.github.io/-fonts/ginesocondmedium-webfont.woff2') format('woff2'),
-         url('https://soltdr.github.io/-fonts/ginesocondmedium-webfont.woff') format('woff');
+    font-family: 'GinesoCondMedium';
+    src: url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff2') format('woff2'),
+         url('https://soltdr.github.io/-fonts/GinesoCondMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 body {
-	font-family: 'ginesocond_medium', san-serif;
+	font-family: GinesoCondMedium, san-serif;
 	font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, td, dd, dt {
 	font-family: Acherus, sans-serif;
 }
 .boo ul li {
-	font-family: 'ginesocond_medium', san-serif;
+	font-family: GinesoCondMedium', san-serif;
 	font-size: 18px;
 }
 .jumbotron h1 {
@@ -59,7 +59,7 @@ h3 {
     padding: 8px;
     }
 #postBody p, ul, ol, ul li, ol li, td, dd, dt {
-	font-family: 'ginesocond_medium', san-serif;
+	font-family: GinesoCondMedium, san-serif;
 	font-size: 14px;
 }
 .alternateTable {
