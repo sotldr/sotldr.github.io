@@ -96,8 +96,11 @@ figcaption, .site-credit {
 	color: #ffffff;
 	text-decoration: underline;
 }
-.site-credit h1, .site-credit h2, .site-credit h3, .site-credit h4 {
+.site-credit h4 {
 	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
 }
 a, li a {
 	text-decoration: underline;
