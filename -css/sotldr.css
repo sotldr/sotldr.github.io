@@ -13,14 +13,14 @@
 /* the various styles */
 
 body {
-	font-family: gineso-condensed, san-serif;
+	font-family: Acherus, san-serif;
 	font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, td, dd, dt {
 	font-family: Acherus, sans-serif;
 }
 .boo ul li {
-	font-family: GinesoCondMedium, san-serif;
+	font-family: Acherus, san-serif;
 	font-size: 18px;
 }
 .jumbotron h1 {
@@ -58,7 +58,7 @@ h3 {
     padding: 8px;
     }
 #postBody p, ul, ol, ul li, ol li, td, dd, dt {
-	font-family: gineso-condensed, san-serif;
+	font-family: Acherus, san-serif;
 	font-size: 14px;
 }
 .alternateTable {
