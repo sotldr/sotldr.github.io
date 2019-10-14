@@ -86,6 +86,12 @@ div.wrapright, img.wrapright, figure.wrapright {
 	float: right;
 	margin: 0px 0px 15px 15px;
 }
+.roundedcorners {
+	border:1px solid #;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;  	
+}
 .photo-credit {
 	margin-top: 90px;
 	border-top: 1px solid #dcdcdc;
