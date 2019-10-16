@@ -67,8 +67,7 @@ h3 {
 }
 #postBody dd {
 	margin-bottom: 18px;
-	padding-left: 22px;
-	text-indent: -22px;	
+	margin-left: 22px;
 }
 .alternateTable {
     border-collapse: collapse;
