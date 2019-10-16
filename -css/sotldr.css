@@ -65,6 +65,11 @@ h3 {
 	color: #75787b;
 	font-size: 16px;
 }
+.deflist dd {
+	margin-bottom: 18px;
+	padding-left: 22px;
+	text-indent: -22px;	
+}
 .alternateTable {
     border-collapse: collapse;
     width: 100%;
