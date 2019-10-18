@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <head>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="srJ0mRbkJAOvc4bvklhKxAoV2V8TH42ZeEM8nSKNlCI" />
+  <title>SoTLDR Online Repository</title>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- My Custom CSS -->
+  <link href="https://www.sotldr.com/-css/sotldr.css" rel="stylesheet" type="text/css" />
+
+  <!-- include scripts -->
+  <script>
+  $(document).ready(function(){
+    $('#jumbotron').load("https://www.sotldr.com/-includes/zombocom.html");
+    $('#topnav').load("https://www.sotldr.com/-includes/topnav.html");
+    $('#footer').load("https://www.sotldr.com/-includes/footer.html");
+  });
+  </script>
+  
+<script async src="https://cse.google.com/cse.js?cx=004254621551572523759:jtube4g9pjn"></script>
+</head>
+ <body>
+<!-- script -->
+<div id="topinfo"></div>
+<script>
+  if ( window.location !== window.parent.location ) {
+   document.getElementById("demo").innerHTML = "<div id='content'></div>"
+   // The page is in an iframe
+  } else {
+   // The page is not in an iframe
+   document.getElementById("topinfo").innerHTML = "<header><div id='jumbotron'></div></header><div id='topnav'></div><main style='vertical-align: top;background-color: #fefefe;padding: 0px 90px 15px 45px;'><h2>Online Repository</h2><div style='width: 400px;float: right;margin-left: 30px;'><div class='gcse-searchbox-only'></div></div>"
+    // document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.href;
+  }
+</script>
+<div id="postBody" style='background-color: #fefefe;padding: 0px 90px 15px 45px;'>
+ <p><img src="https://www.sotldr.com/images/gmail-google-email.jpg" width="400" height="267" alt="Phone showing Gmail on the screen" style="float: right;margin: 30px 0px 15px 15px;clear: both;">The SoTLDR announcement list provides publication announcements for the Scholarship of Teaching and Learning with Digital Resources website. Typically, you will receive one to two messages a month (and no more than five messages).</p>
+</div>
+<div id="bottominfo"></div>
+<script>
+  if ( window.location !== window.parent.location ) {
+   document.getElementById("demo").innerHTML = "<div id='content'></div>"
+   // The page is in an iframe
+  } else {
+   // The page is not in an iframe
+   document.getElementById("bottominfo").innerHTML = "</main><footer><div id='footer'></div></footer>"
+    // document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.href;
+  }
+</script>
+ </body>
+</html>
