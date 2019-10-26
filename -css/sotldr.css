@@ -70,13 +70,14 @@ h3 {
 	margin-bottom: 18px;
 	margin-left: 22px;
 }
-#exitTicket a {
+.exitTicket a {
 	background-color: #C64600;
 	border: 1px solid #C64600;
 	text-decoration: none;
 }
-#exitTicket a:hover {
+.exitTicket a:hover {
 	background-color: #861f41;
+	border: 1px solid #861f41;
 }
 .readMore {
 	border-bottom: 12px;
