@@ -72,7 +72,8 @@ h3 {
 }
 a.exitTicket:hover {
   color: #ffffff ;
-  background-color: #e5e1e6;
+  background-color: #C64600;
+  border: 1px solid #C64600;
 }
 .readMore {
 	border-bottom: 12px;
