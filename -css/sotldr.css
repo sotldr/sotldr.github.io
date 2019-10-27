@@ -70,7 +70,7 @@ h3 {
 	margin-bottom: 18px;
 	margin-left: 22px;
 }
-a.exitTicket:link {
+a.exitTicket:link, a.exitTicket:visited {
   color: #ffffff;
   background-color: #C64600;
   border: 1px solid #C64600;
@@ -80,6 +80,12 @@ a.exitTicket:hover {
   color: #ffffff;
   background-color: #861f41;
   border: 1px solid #861f41;
+  text-decoration: none;
+}
+a.exitTicket:active {
+  color: #ffffff;
+  background-color: #C64600;
+  border: 1px solid #C64600;
   text-decoration: none;
 }
 .readMore {
