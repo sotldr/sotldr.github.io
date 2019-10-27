@@ -32,7 +32,7 @@
 <!-- script -->
 <div id="topinfo"></div>
 <script>
-    if ( window.location !== window.parent.location ) {
+    if ( window.location == window.parent.location ) {
       document.getElementById("demo").innerHTML = "<div id='content'></div>"
       // The page is in an iframe
     } else {
