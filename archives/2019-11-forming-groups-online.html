@@ -49,11 +49,20 @@
       document.getElementById("topinfo").innerHTML = "<header><div id='jumbotron'></div></header><div id='topnav'></div><main style='vertical-align: top;background-color: #fefefe;padding: 0px 90px 15px 45px;'><h2>November 2019: Forming Groups Online</h2><div style='width: 400px;float: right;margin-left: 30px;'><div class='gcse-searchbox-only'></div>"
        // document.getElementById("demo").innerHTML = "Page hostname is: " + window.location.href;
     }
+	
+function myShowHide() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 <div id="postBody" style='background-color: #fefefe;padding: 0px 90px 15px 45px;font-family: Verdana, Geneva, sans-serif'>
 <div style="width: 404px;float: right;margin: 0px 0px 15px 15px;clear: both;">
 <p><img src="../images/EdCampOKC-GoogleHangout.jpg" width="400" height="280" alt="Group of teachers collaborating online with Google Hangouts"  style="float: right;margin: 30px 0px 15px 15px;"></p>
-<p style="text-align: center;"><a href="https://forms.gle/Q4vKeio9hapH7YRF7" class="exitTicket btn" role="button" target="_blank">Complete the Exit Ticket</a></p>
+<p style="text-align: center;"><a href="https://forms.gle/DwMBA14wLsqLheMY6" class="exitTicket btn" role="button" target="_blank">Complete the Exit Ticket</a></p>
 </div>
   <p>Asking students to complete activities in small groups builds their collaborative skills and encourages community support and learning. This month’s post focuses on ways to set up small groups that work in online courses.</p>
   <h3>What Does Research Say?</h3>
@@ -66,9 +75,11 @@
 <dt>Group by Student Choice</dt>
 	<dd>Allowing students to create form groups on their own can work in the face-to-face classroom, but it is a difficult strategy to use in fully online courses. Students do not know from a glance around the room which groups are too small and have infrequently built the personal connections that help students find others with like interests or complementary skills. In hybrid courses, student choice can be a useful choice however.<br>
 	  <br>
+      <button onclick="myShowHide()">See How to Set Student Choice Up in Canvas</button>
+<div id="myDIV">
 	  In Canvas, you can set up groups by student choice
 	  by choosing the <em>Allow self sign-up</em> checkbox by the <em>Self Sign-Up</em> label (shown below with the online help popup) when you create a group set.<br>
-	  <img src="../images/student-choice-groups.png" width="669" height="529" alt="Student Choice dialog in Canvas" style="margin-top: 15px;"><br>
+	  <img src="../images/student-choice-groups.png" width="669" height="529" alt="Student Choice dialog in Canvas" style="margin-top: 15px;"></div>
 	</dd>
 <dt>Group by Section</dt>
 	<dd>If you teach multiple sections of the same course, you may have chosen to create one online course that all sections have access to for assignments and online work. In such course configurations, creating a group set that is based on the sections in the course can help you manage due dates that differ by section as well as create groups large enough for discussion without being overwhelming. <br>
@@ -106,7 +117,7 @@
 
 <h3>Feedback on the November 2019 Post</h3>
 <p>Please complete the Exit Ticket to give us feedback on this post and help us evaluate the use of this site.<br /><br />
-<a href="https://forms.gle/Q4vKeio9hapH7YRF7" class="exitTicket btn" role="button" target="_blank">Complete the Exit Ticket</a></p>
+<a href="https://forms.gle/DwMBA14wLsqLheMY6" class="exitTicket btn" role="button" target="_blank">Complete the Exit Ticket</a></p>
 
 
   <p class="photo-credit">Photo credit: <a href="https://flic.kr/p/jprPbp" target="_blank">EdCampOKC Google Hangout: 21 Jan 2014 by Wesley Fryer on Flickr</a>, used under a CC-BY 2.0 license.</p>
